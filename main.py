@@ -15,6 +15,9 @@ im = Image.merge("RGB", (g,r,b))
 im = im.filter(ImageFilter.CONTOUR)
 im.show()
 
+cropped = im.crop((1,2,100,60))
+cropped.show()
+
 
 
 
